@@ -1,4 +1,7 @@
 // Modelo 07 · Barbearia — On Track LP
+// Endereço público do site (usado na prévia do WhatsApp/Instagram). Em domínio próprio: LP_URL=https://www.cliente.com.br/
+const SITE = process.env.LP_URL || 'https://devagenciaontrack-sys.github.io/lp-modelo-07-ontrack/'
+
 export default defineNuxtConfig({
   compatibilityDate: '2026-10-01',
   devtools: { enabled: false },
@@ -13,6 +16,15 @@ export default defineNuxtConfig({
         { name: 'viewport', content: 'width=device-width, initial-scale=1, viewport-fit=cover' },
         { name: 'description', content: 'Corte masculino, barba na toalha quente e navalha, sobrancelha e pigmentação. Monte seu atendimento e agende pelo WhatsApp.' },
         { name: 'theme-color', content: '#0B0A09' },
+        { property: 'og:type', content: 'website' },
+        { property: 'og:title', content: 'Sua Barbearia — A arte do corte bem feito' },
+        { property: 'og:description', content: 'Corte masculino, barba na toalha quente e navalha, sobrancelha e pigmentação. Monte seu atendimento e agende pelo WhatsApp.' },
+        { property: 'og:url', content: SITE },
+        { property: 'og:image', content: SITE + 'og.jpg' },
+        { property: 'og:image:width', content: '1200' },
+        { property: 'og:image:height', content: '630' },
+        { property: 'og:locale', content: 'pt_BR' },
+        { name: 'twitter:card', content: 'summary_large_image' },
       ],
       link: [
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },

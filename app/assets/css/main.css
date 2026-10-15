@@ -191,3 +191,6 @@ h1{ font-family:var(--serif); font-weight:500; font-size:clamp(52px, 7.4vw, 108p
 .rod-credito{ text-decoration:none; } .rod-credito b{ color:var(--marfim); transition:color .2s; } .rod-credito:hover b{ color:var(--ouro); }
 
 @media (prefers-reduced-motion:reduce){ html{ scroll-behavior:auto; } *{ transition:none !important; } }
+
+/* celular: área de toque mínima de 44px */
+@media (max-width:760px){ .link{ min-height:44px; display:inline-flex; align-items:center; } }

@@ -28,3 +28,6 @@ npm run generate   # site estático em .output/public
 
 ## Briefing para o cliente
 PDF com tudo o que precisamos do cliente para montar o site: [baixar o briefing](Briefing-Modelo-07-Barbearia.pdf?raw=1)
+
+## Prévia ao compartilhar
+A imagem `public/og.jpg` aparece quando o link é enviado no WhatsApp ou no Instagram. Em domínio próprio, gere com `LP_URL=https://www.dominio-do-cliente.com.br/` para a prévia apontar para o endereço certo, e troque o `og.jpg` por um print do site final.
