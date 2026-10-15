@@ -5,9 +5,9 @@ Landing page modelo da **On Track**, feita em **Nuxt 4** (Vue). Sem marca: pront
 - **Demonstração:** https://devagenciaontrack-sys.github.io/lp-modelo-07-ontrack/
 
 ## O que tem
-- Topo com poste de barbeiro animado e status **aberto agora / fechado** calculado pelo horário de funcionamento.
+- Visual premium em preto e dourado, com status **aberto agora / fechado** calculado pelo horário de funcionamento.
 - **Tabela da casa** que monta o atendimento: o cliente marca os serviços, vê total, tempo na cadeira e desconto do combo corte + barba, escolhe dia, período e barbeiro, e o pedido vai pronto para o WhatsApp.
-- Barbeiros por cadeira, **clube de assinatura** (cartão de sócio), sobre nós com mimos da casa, avaliações, endereço e horários com o dia de hoje destacado.
+- Galeria **Nosso trabalho**, barbeiros, **clube de assinatura** (cartão de membro), sobre nós, avaliações, **mapa do Google** com horários e o dia de hoje destacado, e dúvidas frequentes.
 
 ## Como personalizar
 Tudo fica no topo de `app/app.vue`:
