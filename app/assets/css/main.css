@@ -194,3 +194,8 @@ h1{ font-family:var(--serif); font-weight:500; font-size:clamp(52px, 7.4vw, 108p
 
 /* celular: área de toque mínima de 44px */
 @media (max-width:760px){ .link{ min-height:44px; display:inline-flex; align-items:center; } }
+
+/* regras de interface: toque, pular para o conteúdo, tema escuro */
+html{ touch-action:manipulation; -webkit-tap-highlight-color:rgba(201,164,92,.18); color-scheme:dark; }
+.skip{ position:absolute; left:-9999px; top:12px; z-index:100; padding:10px 16px; border-radius:8px; background:#111; color:#fff; font-weight:700; text-decoration:none; }
+.skip:focus-visible{ left:12px; }
